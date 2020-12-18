@@ -69,6 +69,10 @@ Mobile application
 <img src="https://user-images.githubusercontent.com/37477693/102620243-1000b300-4181-11eb-9cc4-9fbc943503a6.JPG" width="400"></img>
 
 
+<img src="https://user-images.githubusercontent.com/37477693/102620246-10994980-4181-11eb-9828-942d56516eb6.JPG" width="400"></img>
+
+
+
 DORINIC will be implemented as a mobile application including OCR function. When we create a wallet, the Mnemonic phrases that consist of 12 words are generated. Mnemonic on the screen is automatically recognized through the OCR function and application’s camera. Subsequently, the extracted text is encrypted through the AES algorithm and stored in a folder within the mobile device. When a user needs to restore a wallet, the stored Mnemonics automatically call it up through biometric recognition by accessing the DORINIC. During the limited time (approximately one minute), mnemonic is exposed on the mobile screen, which allows users to easily restore their wallets even if they don't remember the mnemonic phrase.
 
 
