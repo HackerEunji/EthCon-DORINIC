@@ -85,7 +85,7 @@ DORINIC will be implemented as a mobile application including OCR function. When
 ## Benefits of the Project
 
 
-<img src="https://user-images.githubusercontent.com/37477693/102620250-1131e000-4181-11eb-80ed-6cc8275d2403.JPG" width="400"></img>
+<img src="https://user-images.githubusercontent.com/37477693/102621996-c1084d00-4183-11eb-94d7-9cfac3f19594.jpg" width="400"></img>
 
 
 ### Convenience
