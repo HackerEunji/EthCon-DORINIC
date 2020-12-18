@@ -1,6 +1,8 @@
 # EthCon-DORINIC
 This is a repository for introducing the "Dorinic" idea of the 2020 Ethcon project.
 
+<img src="https://user-images.githubusercontent.com/37477693/102620036-ba2c0b00-4180-11eb-90dd-622e5d0b592a.JPG" width="400"></img>
+
 
 
 
@@ -34,6 +36,9 @@ This is a repository for introducing the "Dorinic" idea of the 2020 Ethcon proje
 ## Problems
 
 
+<img src="https://user-images.githubusercontent.com/37477693/102620233-0d9e5900-4181-11eb-9400-cc4db9b8cacf.JPG" width="400"></img>
+
+
 When we create the account, the Mnemonic phrase is generated to protect the private key of the wallet. Mnemonic consists of 12 words to restore the wallet. This phrase should not be leaked to others, so it should be kept and managed in a separate way. However, the online environment always exposes the leakage of clipboard or documents and off-line environments are not useful for managing because of risk of loss. Although the Mnemonic is made of 12 words that can be easily recognized, it is hard to be memorized. In addition, the Mnemonic phrases from entropy become hard to assure confidentiality, because it can be easily exposed and remembered by others.
 
 
@@ -48,7 +53,14 @@ Mobile application
 
 모바일 앱
 
+
 ## Proposed Methodologies
+
+
+<img src="https://user-images.githubusercontent.com/37477693/102620240-0f681c80-4181-11eb-902b-4620a81e354a.JPG" width="400"></img>
+
+
+<img src="https://user-images.githubusercontent.com/37477693/102620243-1000b300-4181-11eb-9cc4-9fbc943503a6.JPG" width="400"></img>
 
 
 DORINIC will be implemented as a mobile application including OCR function. When we create a wallet, the Mnemonic phrases that consist of 12 words are generated. Mnemonic on the screen is automatically recognized through the OCR function and application’s camera. Subsequently, the extracted text is encrypted through the AES algorithm and stored in a folder within the mobile device. When a user needs to restore a wallet, the stored Mnemonics automatically call it up through biometric recognition by accessing the DORINIC. During the limited time (approximately one minute), mnemonic is exposed on the mobile screen, which allows users to easily restore their wallets even if they don't remember the mnemonic phrase.
@@ -59,6 +71,9 @@ DORINIC will be implemented as a mobile application including OCR function. When
 
 
 ## Benefits of the Project
+
+
+<img src="https://user-images.githubusercontent.com/37477693/102620250-1131e000-4181-11eb-80ed-6cc8275d2403.JPG" width="400"></img>
 
 
 ### Convenience
