@@ -98,6 +98,5 @@ At the same time as reducing the risk of loss, it can also reduce the burden of 
 This application can easily be used by generating wallets on any platform.
 
 
-이더리움 월렛인 MetaMask와 호환 가능하게 하여 사용성을 증진시켜준다.
-
+본 어플리케이션은 어떤 플랫폼에서 지갑을 생성하든 쉽게 접목하여 사용할 수 있다
 
