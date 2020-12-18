@@ -33,6 +33,8 @@ This is a repository for introducing the "Dorinic" idea of the 2020 Ethcon proje
 >>2) DORI + NICK: 니모를 찾아서의 도리와 주토피아 닉(여우-MetaMask)
 
 
+
+
 ## Problems
 
 
@@ -45,6 +47,8 @@ When we create the account, the Mnemonic phrase is generated to protect the priv
 지갑의 개인 키를 보호하기 위해 계정 생성 시 니모닉(Mnemonic) 문구가 생성된다. 이때, 니모닉이란 지갑을 복구하기 위한 12개의 단어를 말하는데, 이 문구는 타인에게 유출되면 안 되기 때문에 별도의 방법으로 보관하여 관리 해야한다. 그러나 온라인 환경은 클립보드나 문서 취약점 등으로 인한 유출 가능성이 높고, 오프라인 환경은 분실 위험이 크고 관리가 용이하지 않으며, 사용자가 인식하기 쉽게 만든 12 단어이지만 쉽게 기억하기엔 어렵다. 더불어 엔트로피로부터 형성되는 니모닉은 결과적으로 12글자가 타인에게 쉽게 노출 및 기억될 수 있어 기밀성 또한 보장하기 어렵다.
 
 
+
+
 ## Final Product
 
 
@@ -52,6 +56,8 @@ Mobile application
 
 
 모바일 앱
+
+
 
 
 ## Proposed Methodologies
@@ -67,6 +73,8 @@ DORINIC will be implemented as a mobile application including OCR function. When
 
 
 도리닉은 OCR 기능을 포함한 모바일 애플리케이션으로 구현될 것이다. 지갑을 만들 때 12개의 단어로 구성된 니모닉 문구가 생성된다다. 화면의 니모닉은 OCR 기능과 응용 프로그램의 카메라를 통해 자동으로 인식된다. 그 후에 추출된 텍스트는 AES 알고리즘을 통해 암호화되고 모바일 장치의 폴더에 저장된다. 사용자가 지갑을 복원해야 하는 경우 저장된 니모닉은 DORINIC에 액세스하여 생체 인식을 통해 자동으로 지갑을 불러온다. 제한된 시간(약 1분) 동안 모바일 화면에 니모닉이 노출되어 사용자가 니모닉 문구를 기억하지 못해도 지갑을 쉽게 복구할 수 있다.
+
+
 
 
 
