@@ -69,7 +69,7 @@ Mobile application
 <img src="https://user-images.githubusercontent.com/37477693/102620243-1000b300-4181-11eb-9cc4-9fbc943503a6.JPG" width="400"></img>
 
 
-<img src="https://user-images.githubusercontent.com/37477693/102620246-10994980-4181-11eb-9828-942d56516eb6.JPG" width="400"></img>
+<img src="https://user-images.githubusercontent.com/37477693/102621468-f1032080-4182-11eb-80ae-fa8851d455f7.jpg" width="400"></img>
 
 
 
