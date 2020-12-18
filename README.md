@@ -2,6 +2,8 @@
 This is a repository for introducing the "Dorinic" idea of the 2020 Ethcon project.
 
 
+
+
 ## Team ETHEREAL 
 
 
@@ -15,6 +17,8 @@ This is a repository for introducing the "Dorinic" idea of the 2020 Ethcon proje
 
 
 ## Overview of the Project(프로젝트 개요)
+
+
 >DORINIC, Mobile application for safe storage of Mnemonic
 >>1) DORI + Mnemonic: A program that helps Dori (sounds like Dory) remember Mnemonic
 >>2) DORI + NICK: Dory from movie ‘Finding Nemo’ & Nick from movie ‘Zootopia’ (similar with fox from MetaMask)
@@ -26,6 +30,8 @@ This is a repository for introducing the "Dorinic" idea of the 2020 Ethcon proje
 
 
 ## Problems
+
+
 When we create the account, the Mnemonic phrase is generated to protect the private key of the wallet. Mnemonic consists of 12 words to restore the wallet. This phrase should not be leaked to others, so it should be kept and managed in a separate way. However, the online environment always exposes the leakage of clipboard or documents and off-line environments are not useful for managing because of risk of loss. Although the Mnemonic is made of 12 words that can be easily recognized, it is hard to be memorized. In addition, the Mnemonic phrases from entropy become hard to assure confidentiality, because it can be easily exposed and remembered by others.
 
 
@@ -46,16 +52,35 @@ Mobile application
 DORINIC will be implemented as a mobile application including OCR function. When we create a wallet, the Mnemonic phrases that consist of 12 words are generated. Mnemonic on the screen is automatically recognized through the OCR function and application’s camera. Subsequently, the extracted text is encrypted through the AES algorithm and stored in a folder within the mobile device. When a user needs to restore a wallet, the stored Mnemonics automatically call it up through biometric recognition by accessing the DORINIC. During the limited time (approximately one minute), mnemonic is exposed on the mobile screen, which allows users to easily restore their wallets even if they don't remember the mnemonic phrase.
 
 
+도리닉은 OCR 기능을 포함한 모바일 애플리케이션으로 구현될 것이다. 지갑을 만들 때 12개의 단어로 구성된 니모닉 문구가 생성된다다. 화면의 니모닉은 OCR 기능과 응용 프로그램의 카메라를 통해 자동으로 인식된다. 그 후에 추출된 텍스트는 AES 알고리즘을 통해 암호화되고 모바일 장치의 폴더에 저장된다. 사용자가 지갑을 복원해야 하는 경우 저장된 니모닉은 DORINIC에 액세스하여 생체 인식을 통해 자동으로 지갑을 불러온다. 제한된 시간(약 1분) 동안 모바일 화면에 니모닉이 노출되어 사용자가 니모닉 문구를 기억하지 못해도 지갑을 쉽게 복구할 수 있다.
+
+
+
 ## Benefits of the Project
 
 
-# Convenience
+### Convenience
+
+
 It solves the inconvenience of users writing down their Mnemonic, and helps them not forget their Mnemonic.
 
-# Security
+
+사용자가 일일이 니모닉을 적어두는 번거로움 해결하고, 사용자가 니모닉을 잊지 않도록 도와준다.
+
+### Security
+
+
 At the same time as reducing the risk of loss, it can also reduce the burden of leakage by reducing the exposure of the plain text of the Mnemonic itself.
 
-# Compatibility
+분실의 위험성을 덜어주는 동시에, 니모닉 자체의 평문 노출을 줄여 유출의 부담감 또한 경감할 수 있다.
+
+
+### Compatibility
+
+
 This application can easily be used by generating wallets on any platform.
+
+
+이더리움 월렛인 MetaMask와 호환 가능하게 하여 사용성을 증진시켜준다.
 
 
