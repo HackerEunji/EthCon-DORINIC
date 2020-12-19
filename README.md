@@ -1,6 +1,16 @@
 # EthCon-DORINIC
 This is a repository for introducing the "Dorinic" idea of the 2020 Ethcon project.
 
+
+This project is an award-winning work in the Usability category, and all copyrights are on this team.
+
+
+이것은 2020년 Ethcon 프로젝트의 "Dorinic" 아이디어를 소개하는 레퍼지토리입니다.
+
+
+이 프로젝트는 Usability(사용성)부문 수상작이며, 모든 저작권은 본 팀에 있습니다.
+
+
 <img src="https://user-images.githubusercontent.com/37477693/102620036-ba2c0b00-4180-11eb-90dd-622e5d0b592a.JPG" width="400"></img>
 
 
